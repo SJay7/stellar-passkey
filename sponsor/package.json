@@ -1,0 +1,16 @@
+{
+  "name": "@stellar-passkey/sponsor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fee-bump sponsor serverless function for StellarPassKey",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^13.0.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.9.3"
+  }
+}

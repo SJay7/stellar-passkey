@@ -1,0 +1,39 @@
+# ─── Rust / Cargo ────────────────────────────────────────────
+target/
+Cargo.lock        # re-add as committed if deploying a binary; library = ignored
+
+# ─── Node / npm ──────────────────────────────────────────────
+node_modules/
+dist/
+.next/
+.nuxt/
+.vite/
+*.tsbuildinfo
+
+# ─── Vite ─────────────────────────────────────────────────────
+app/dist/
+
+# ─── Environment / secrets ───────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.secret-key
+identity.toml
+
+# ─── Soroban tooling ──────────────────────────────────────────
+.soroban/
+
+# ─── OS / Editor ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Logs ────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
